@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+<br />
+<br />
+
+<header>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/lib/images/img11.jpg" alt="Los Angeles" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="~/lib/images/img12.jpg" alt="Chicago" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="~/lib/images/img13.jpg" alt="New York" width="1100" height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</header>
+<br />
+<br />
+<br />
+<div class="text-center mt-5 row">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <img class="justify-content-center" src="~/lib/images/Untitled-2.png" width="300">
+        <h1 class="display-4"><strong>Welcome to ANFINITI Bus Service</strong></h1>
+        <p class="text-center pt-3 text-sm-center">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+        </p>
+        <div class="col-12 mt-3 mb-3">
+            <form action="/Home/Displayindex" id="busSchedule">
+                <input  type="submit" class="brn btn-outline-primary" value="Schedule">
+            </form>
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>
+@*<form action="/Home/Displayindex" id="busSchedule">
+    <input type="submit" value="Schedule">
+</form>*@

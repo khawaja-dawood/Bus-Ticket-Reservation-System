@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Reserved Seats Information";
+}
+<script src="~/js/PersistsReservation.js"></script>
+<link href="~/css/Form1css.css" rel="stylesheet" />
+<br />
+<body>
+    <div class="text-center">
+        <center>
+            <h2 class="abc">Reserved Seats Information</h2>
+            <input type="text" value="@ViewBag.ScheduleID" name="ScheduleID" id="scheduleID" hidden />
+            <div class="buttton-style">
+                <button onclick="Showpopup()"><i class="fas fa-user-plus"></i> BOOK NEW </button>
+            </div>
+        </center>
+    </div>
+    <br />
+    <div class="text-center">
+
+        <div class="card-body">
+            <div id="AppointmentDiv" class="display d-flex justify-content-center" style="display:inline-block">
+                <table class=" display responsive nowrap " id="ReservedSeatinfoTable"></table>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<div id="myPopup" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="card card-default">
+                    <div class="card-heading bg-dark" id="cardHead" >
+                        <strong style="color:white">Customer Information </strong>
+                    </div><p />
+                          <div class="card card-body" id="cardBody" style="align-content:center;align-items:center">
+
+                              <div>
+                                 
+                                  <input type="text" value="@ViewBag.ScheduleID" id="schid" required="required" hidden/>
+
+                              </div>
+                              <div>
+                                 
+                                  <input type="text" id="Rid" required="required" hidden/>
+
+                              </div>
+                              <br />
+                              <div>
+                                  <label>Name</label>
+                                  <input type="text" id="name" required="required" />
+
+                              </div>
+                              <br />
+                              <div>
+                                  <label>Email</label>
+                                  <input type="email" id="email" required="required" />
+
+                              </div>
+                              <br />
+                              <div>
+                                  <label>CNIC</label>
+                                  <input type="number" id="cnic" required="required" />
+
+                              </div>
+                              <br />
+                              <div>
+                                  <label>Phone</label>
+                                  <input type="number" id="phno" required="required" />
+
+                              </div>
+                              <br />
+                              <br />
+                              <br />
+                              <h5>Payment Method:</h5>
+                              <div>
+
+                                  <input type="radio" name="pay" value="Online" />Online
+
+                              </div>
+                              <div> <input type="radio" name="pay" value="By Cash" />By Cash</div>
+                          </div>
+                </div>
+
+                <div class="">
+                    <button type="button" class="btn btn-primary btn-sm" onclick="persistReservation()">Save</button>
+                    <button type="button" class="btn btn-light btn-sm" data-dismiss="modal">Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

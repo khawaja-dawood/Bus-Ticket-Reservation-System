@@ -1,0 +1,372 @@
+﻿
+
+.abc {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 50px;
+    box-shadow: 20px;
+}
+lable{
+   float:left;
+}
+
+/*.row FormGroup pad2 {
+    display: inline-block;
+}*/
+
+
+
+
+.png {
+    float: right;
+    margin-right: 200px;
+    border: 2px solid black;
+    background-color: dimgrey;
+}
+
+
+.lbl {
+    text-align: center;
+    text-size-adjust: 150%;
+    margin: 4px;
+}
+
+input type[text] {
+    padding: 4px;
+}
+
+
+
+.btn {
+    float: right;
+}
+
+table {
+    text-align: center;
+    height: 10%;
+}
+
+.RSI {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Jazz LET, fantasy;
+}
+
+.left {
+    float: right;
+}
+
+.PA {
+    margin-left: 150px;
+    font-size: medium;
+}
+
+select {
+    border: 2px solid dimgrey;
+    width: 200px;
+}
+
+.CF .radio{
+    margin-left: 250px;
+    align-items:center;
+   
+}
+
+.CI {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Jazz LET, fantasy;
+}
+
+.IG {
+    width: 250px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: gray;
+}
+
+    .IG input {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border: 2px solid dimgrey;
+        color: dimgrey;
+        padding: 3px;
+    }
+
+    .IG span {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        transition: 0.5s;
+        font-size: 20px;
+        pointer-events: none;
+    }
+
+    .IG input:focus + span, .IG input:valid + span {
+        top: 0px;
+        left: 10px;
+        font-size: 14px;
+        color: dimgrey;
+        padding: 3px;
+        background: white;
+    }
+
+.CNIC {
+    width: 250px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: gray;
+}
+
+    .CNIC input {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border: 2px solid dimgrey;
+        color: dimgrey;
+        padding: 3px;
+    }
+
+    .CNIC span {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        transition: 0.5s;
+        font-size: 20px;
+        pointer-events: none;
+    }
+
+    .CNIC input:focus + span, .CNIC input:valid + span {
+        top: 0px;
+        left: 10px;
+        font-size: 14px;
+        color: dimgrey;
+        padding: 3px;
+        background: white;
+    }
+
+.email {
+    width: 250px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: gray;
+}
+
+    .email input {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border: 2px solid dimgrey;
+        color: dimgrey;
+        padding: 3px;
+    }
+
+    .email span {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        transition: 0.5s;
+        font-size: 20px;
+        pointer-events: none;
+    }
+
+    .email input:focus + span, .email input:valid + span {
+        top: 0px;
+        left: 10px;
+        font-size: 14px;
+        color: dimgrey;
+        padding: 3px;
+        background: white;
+    }
+
+.PH {
+    width: 250px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: gray;
+}
+
+    .PH input {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border: 2px solid dimgrey;
+        color: dimgrey;
+        padding: 3px;
+    }
+
+    .PH span {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        transition: 0.5s;
+        font-size: 20px;
+        pointer-events: none;
+    }
+
+    .PH input:focus + span, .PH input:valid + span {
+        top: 0px;
+        left: 10px;
+        font-size: 14px;
+        color: dimgrey;
+        padding: 3px;
+        background: white;
+    }
+
+.lft {
+    float: right;
+    margin-right: 100px;
+}
+
+.box {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 30%;
+    box-shadow: black 3px 3px 1px;
+}
+@media (max-width:770px){
+    .box{
+        margin-left:25%;
+
+    }
+}
+@media (max-width:500px) {
+    .box {
+        margin-left: 25%;
+    }
+}
+@media (max-width:490px) {
+    .box {
+        margin-left: 22%;
+    }
+}
+@media (max-width:405px) {
+    .box {
+        margin-left: 20%;
+    }
+}
+@media (max-width:380px) {
+    .box {
+        margin-left: 18%;
+    }
+}
+@media (max-width:360px) {
+    .box {
+        margin-left: 12%;
+    }
+}
+
+.radio {
+    margin-left: 160px;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    /*background-image: url(/images/whitebus.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    width: 100vw;
+}
+
+
+.buttton-style button {
+    border: 0;
+    background: rgb(42, 42, 59);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+    .buttton-style button:hover {
+        background: #2ecc71;
+    }

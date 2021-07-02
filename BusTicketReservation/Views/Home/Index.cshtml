@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Bus Reservation";
+}
+
+<script src="~/js/Index.js"></script>
+<link href="~/css/Form1css.css" rel="stylesheet" />
+
+
+
+
+
+
+<div class="text-center">
+        <center>
+            <h2 class="abc">Bus Ticket Reservation System</h2>
+        </center>
+    </div>
+    <br />
+    <div class="box">
+        Lahore To Islamabad
+    </div>
+    <br />
+    <br />
+    <br />
+
+<div class="form-group row">
+
+   
+
+    <div class="col-xs-3">
+        <center>
+          
+            <div class="input-group date">
+                <label for="SelectDate" class="col-sm-2 col-form-label">Select&nbsp;Date:  </label>
+                <input type="text" class="form-control mx-sm-3" id="TraveltDate" placeholder="2021-05-20" readonly>
+
+            </div>
+        </center>
+
+    </div>
+</div>
+
+<div id="load">
+    <div class="spinner-border text-danger d-flex justify-content-center" style="width: 3rem; height: 3rem;" role="status">
+    </div>
+</div>
+
+<div class="display d-flex justify-content-center" style="display:inline-block">
+    <table class=" display responsive nowrap hover" id="DisplayBusReservation"></table>
+</div>
+
+<form action="/Home/DisplySheduleDetails" method="post" id="busSchedule">
+    <input type="text" name="ScheduleID" id="scheduleID" hidden />
+</form>
+
+
+
+
